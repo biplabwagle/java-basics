@@ -3,12 +3,12 @@ package oopsconcept;
 public class Vehicle {
 
     //state
-        String brandName;
-        String modelName;
-        String color;
-        boolean isElectric;
-        boolean isHybrid;
-        int modelYear;
+        private String brandName;
+        private String modelName;
+        private  String color;
+        private boolean isElectric;
+        private boolean isHybrid;
+        private int modelYear;
 
 
     //behavior
@@ -27,11 +27,34 @@ public class Vehicle {
         this.modelYear = modelYear;
     }
 
-    public void isElectric(boolean isElectric){
+    public void setIsElectric(boolean isElectric){
         this.isElectric = isElectric;
     }
 
-    public void isHybrid(boolean isHybrid){
+    public void setIsHybrid(boolean isHybrid){
         this.isHybrid = isHybrid;
     }
+
+    public String getBrandName(){
+        return this.brandName;
+    }
+    public String getModelName(){
+        return this.modelName;
+    }
+    public String getColor(){
+        return this.color;
+    }
+
+    public boolean getIsElectric(){
+        return this.isElectric;
+    }
+
+    public boolean getIsHybrid(){
+        return this.isHybrid;
+    }
+
+    public int getModelYear(){
+        return this.modelYear;
+    }
+
 }
