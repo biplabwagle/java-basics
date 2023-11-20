@@ -1,2 +1,5 @@
-package oopsconcept;public class BankAccount {
+package oopsconcept;
+
+public class BankAccount {
+
 }
